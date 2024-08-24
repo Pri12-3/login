@@ -1,0 +1,116 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(image/background.jpeg) ;
+	background-size: cover;
+}
+
+
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box; 
+	padding: 70px 30px;
+	border-radius: 10px;
+}
+
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px; 
+}
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #23c0b3;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+	 cursor: pointer;;
+	 background: #ffc107;
+	 color: #000;
+}
+
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: grey;
+}
+
+
+.loginbox a:hover
+{
+	color: #ffc107;
+}
+
+
+.user{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top : -50px;
+	left: calc(50% - 50px);
+}
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        background: url(image/background.jpeg) ;;
+        color: #fff;
+    }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+    .gfg-div {
+        width: 200px;
+        height: 200px;
+        background: url(image/background.jpeg) ;
+        color: #090909;
+    }
+}
